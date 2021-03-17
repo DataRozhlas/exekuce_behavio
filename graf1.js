@@ -5,8 +5,8 @@
 
 
   let chartWidth =
-  document.getElementById("graf1").offsetWidth > 600
-    ? 600
+  document.getElementById("graf1").offsetWidth > 400
+    ? 400
     : document.getElementById("graf1").offsetWidth;
 
 let chartHeight =
