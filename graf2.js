@@ -25,7 +25,7 @@
   
     },
     title: {
-      text: '?',
+      text: 'Kdo má exekutora vybírat?',
       useHTML: true,
     },
     subtitle: {
@@ -34,16 +34,10 @@
       useHTML: true,
     },
     xAxis: {
-      categories: ['Závislost člena rodiny na drogách',
-      'Závislost člena rodiny na alkoholu',
-      'Psychická onemocnění, deprese',
-      'Fyzické, psychické vyčerpání rodičů',
-      'Snížení příjmu',
-      'Sociální vyloučení',
-      'Fyzické, psychické násilí v rodině',
-      'Ztráta zaměstnání',
-      'Zadlužení, exekuce',
-      'Ztráta bydlení'],
+      categories: ['věřitel',
+      'dlužník',
+      'soud',
+      'bez odpovědi',],
       labels: {
         enabled: true,
       },
@@ -75,8 +69,8 @@
       enabled: false,
     },
     credits: {
-      href: 'https://nadacesirius.cz/soubory/aktuality/Prognoza-vyvoje-situace-pro-rodiny-s-detmi-a-podpurne-sluzby.pdf',
-      text: 'Zdroj: Median a Nadace Sirius',
+      href: '',
+      text: 'Zdroj: Behavio',
     },
     plotOptions: {
       column: {
@@ -90,16 +84,10 @@
     series: [
       {
         name: 'Index závažnosti',
-        data: [{ y: 12.24489796, color: colors['2020'] },
-          { y: 16.32653061, color: colors['2020'] },
-          { y: 22.44897959, color: colors['2020'] },
-          { y: 38.7755102, color: colors['2020'] },
-          { y: 40.81632653, color: colors['2020'] },
-          { y: 54.08163265, color: colors['2019'] },
-          { y: 56.12244898, color: colors['2020'] },
-          { y: 71.42857143, color: colors['2019'] },
-          { y: 72.44897959, color: colors['2020'] },
-          { y: 83.67346939, color: colors['2020'] }],
+        data: [{ y: 7, color: colors['2020'] },
+          { y: 4, color: colors['2020'] },
+          { y: 87, color: colors['2020'] },
+          { y: 3, color: colors['2020'] },],
       },
     ],
   });
