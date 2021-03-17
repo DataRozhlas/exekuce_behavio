@@ -29,14 +29,14 @@
       useHTML: true,
     },
     subtitle: {
-      text: '',
+      text: 'Dlužník by měl splatit',
       // + '<br><span style="color: #fff">.</span>',
       useHTML: true,
     },
     xAxis: {
-      categories: ['Dlužník má splatit aspoň část dluhu',
-      'Měl by splatit všechny dluhy, ale ne další částky(penále, úroky)',
-      'Měl by splatit všechno včetně penále, nákladů, úroků.',
+      categories: ['aspoň část dluhu',
+      'všechny dluhy, ale ne další částky (penále, úroky)',
+      'všechno včetně penále, nákladů, úroků',
     ],
       labels: {
         enabled: true,

@@ -25,25 +25,19 @@
   
     },
     title: {
-      text: 'Na co by se měl stát zaměřit při podpoře?',
+      text: 'Kdo má exekuce vykonávat?',
       useHTML: true,
     },
     subtitle: {
-      text: 'Odborníci vybírali z deseti problémů, u kterých předpokládali největší výskyt',
+      text: 'V ideálním scénáři povolání exekutora nevykonává soukromý podnikatel, ale státní nebo soudní zaměstnanec. I v tomto případě panuje široká shoda a tuto variantu podporuje 78 procent Čechů. ',
       // + '<br><span style="color: #fff">.</span>',
       useHTML: true,
     },
     xAxis: {
-      categories: ['Závislost člena rodiny na drogách',
-      'Závislost člena rodiny na alkoholu',
-      'Psychická onemocnění, deprese',
-      'Fyzické, psychické vyčerpání rodičů',
-      'Snížení příjmu',
-      'Sociální vyloučení',
-      'Fyzické, psychické násilí v rodině',
-      'Ztráta zaměstnání',
-      'Zadlužení, exekuce',
-      'Ztráta bydlení'],
+      categories: ['soukromý podnikatel zastupující věřitele',
+      'soukromý podnikatel zastupující stát',
+      'zaměstnanec soudu či státu',
+      'bez odpovědi',],
       labels: {
         enabled: true,
       },
@@ -75,8 +69,8 @@
       enabled: false,
     },
     credits: {
-      href: 'https://nadacesirius.cz/soubory/aktuality/Prognoza-vyvoje-situace-pro-rodiny-s-detmi-a-podpurne-sluzby.pdf',
-      text: 'Zdroj: Median a Nadace Sirius',
+      href: '',
+      text: 'Zdroj: Behavio',
     },
     plotOptions: {
       column: {
@@ -90,16 +84,10 @@
     series: [
       {
         name: 'procent dotázaných souhlasí',
-        data: [{ y: 12.24489796, color: colors['2020'] },
-          { y: 16.32653061, color: colors['2020'] },
-          { y: 22.44897959, color: colors['2020'] },
-          { y: 38.7755102, color: colors['2020'] },
-          { y: 40.81632653, color: colors['2020'] },
-          { y: 54.08163265, color: colors['2019'] },
-          { y: 56.12244898, color: colors['2020'] },
-          { y: 71.42857143, color: colors['2019'] },
-          { y: 72.44897959, color: colors['2020'] },
-          { y: 83.67346939, color: colors['2020'] }],
+        data: [{ y: 7, color: colors['2020'] },
+          { y: 5, color: colors['2020'] },
+          { y: 78, color: colors['2020'] },
+          { y: 10, color: colors['2020'] },],
       },
     ],
   });
