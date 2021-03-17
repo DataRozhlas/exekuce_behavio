@@ -10,8 +10,8 @@
     : document.getElementById("graf1").offsetWidth;
 
 let chartHeight =
-document.getElementById("graf1").offsetHeight > 300
-  ? 300
+document.getElementById("graf1").offsetHeight > 200
+  ? 200
   : document.getElementById("graf1").offsetHeight;
 
   //function onChartLoad(e) {
