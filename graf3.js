@@ -86,7 +86,7 @@
         name: 'procent dotázaných souhlasí',
         data: [{ y: 7, color: colors['2020'] },
           { y: 5, color: colors['2020'] },
-          { y: 78, color: colors['#9ecae1'] },
+          { y: 78, color: colors['2019'] },
           { y: 10, color: colors['2020'] },],
       },
     ],
