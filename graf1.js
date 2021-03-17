@@ -9,6 +9,11 @@
     ? 600
     : document.getElementById("graf1").offsetWidth;
 
+let chartHeight =
+document.getElementById("graf1").offsetHeight > 300
+  ? 300
+  : document.getElementById("graf1").offsetHeight;
+
   //function onChartLoad(e) {
     //const plotBack = document.getElementById(e.renderTo.id).getElementsByClassName('highcharts-plot-background')[0];
     //const shouldBeHeight = (plotBack.width.baseVal.value / 2) * 2;
