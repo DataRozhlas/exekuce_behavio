@@ -25,11 +25,11 @@
   
     },
     title: {
-      text: 'Na co by se měl stát zaměřit při podpoře?',
+      text: '?',
       useHTML: true,
     },
     subtitle: {
-      text: 'Odborníci vybírali z deseti problémů, u kterých předpokládali největší výskyt',
+      text: '',
       // + '<br><span style="color: #fff">.</span>',
       useHTML: true,
     },
