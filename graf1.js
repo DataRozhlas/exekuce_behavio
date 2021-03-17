@@ -25,7 +25,7 @@
   
     },
     title: {
-      text: 'Na co by se měl stát zaměřit při podpoře?',
+      text: 'Na co by se měl stát?',
       useHTML: true,
     },
     subtitle: {
