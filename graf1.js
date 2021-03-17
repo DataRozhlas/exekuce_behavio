@@ -13,7 +13,7 @@ function onChartLoad(e) {
   }
 }
 
-Highcharts.chart('vis-column-chart-simple', {
+Highcharts.chart('graf1', {
   chart: {
     type: 'column',
     width: chartWidthNehody,

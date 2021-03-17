@@ -1,7 +1,7 @@
 // Nastaveni max sirky grafu
 const chartWidthNehody = document.getElementById('vis-column-chart-simple').offsetWidth > 600
   ? 600
-  : document.getElementById('vis-column-chart-simple').offsetWidth;
+  : document.getElementById('graf2').offsetWidth;
 
 function onChartLoad(e) {
   const plotBack = document.getElementById(e.renderTo.id).getElementsByClassName('highcharts-plot-background')[0];
