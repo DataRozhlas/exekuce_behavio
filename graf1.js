@@ -3,15 +3,21 @@
 //? 600
   //: document.getElementById('vis-column-chart-simple').offsetWidth;
 
-  function onChartLoad(e) {
-    const plotBack = document.getElementById(e.renderTo.id).getElementsByClassName('highcharts-plot-background')[0];
-    const shouldBeHeight = (plotBack.width.baseVal.value / 2) * 2;
-    const heightDiff = shouldBeHeight - plotBack.height.baseVal.value;
-    if (heightDiff > 0) {
-      document.getElementById(e.renderTo.id).style.height = `${e.chartHeight + heightDiff}px`;
-      e.reflow();
-    }
-  }
+
+  let chartWidth =
+  document.getElementById("graf1").offsetWidth > 600
+    ? 600
+    : document.getElementById("graf1").offsetWidth;
+
+  //function onChartLoad(e) {
+    //const plotBack = document.getElementById(e.renderTo.id).getElementsByClassName('highcharts-plot-background')[0];
+    //const shouldBeHeight = (plotBack.width.baseVal.value / 2) * 2;
+    //const heightDiff = shouldBeHeight - plotBack.height.baseVal.value;
+    //if (heightDiff > 0) {
+     // document.getElementById(e.renderTo.id).style.height = `${e.chartHeight + heightDiff}px`;
+     // e.reflow();
+   // }
+ // }
   
   Highcharts.chart('graf1', {
     chart: {
