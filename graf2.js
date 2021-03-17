@@ -29,7 +29,7 @@
       useHTML: true,
     },
     subtitle: {
-      text: '',
+      text: 'Má exekutora určovat soud místo věřitele? Češi říkají ano. Tuto variantu podporuje 87 procent dotázaných',
       // + '<br><span style="color: #fff">.</span>',
       useHTML: true,
     },
@@ -86,7 +86,7 @@
         name: 'procent dotázaných souhlasí',
         data: [{ y: 7, color: colors['2020'] },
           { y: 4, color: colors['2020'] },
-          { y: 87, color: colors['2020'] },
+          { y: 87, color: colors['2019'] },
           { y: 3, color: colors['2020'] },],
       },
     ],
