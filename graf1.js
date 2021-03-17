@@ -83,7 +83,7 @@
     },
     series: [
       {
-        name: 'Index závažnosti',
+        name: 'procent dotázaných souhlasí',
         data: [{ y: 19, color: colors['2020'] },
           { y: 63, color: colors['2020'] },
           { y: 16, color: colors['2020'] },],

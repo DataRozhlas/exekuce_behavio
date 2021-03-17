@@ -89,7 +89,7 @@
       },
       series: [
         {
-          name: 'stát by měl podpořit',
+          name: 'procent dotázaných souhlasí',
           data: [{ y: 17, color: colors['2020'] },
             { y: 25, color: colors['2020'] },
             { y: 33, color: colors['2020'] },
