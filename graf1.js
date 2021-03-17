@@ -34,7 +34,7 @@
       useHTML: true,
     },
     xAxis: {
-      categories: ['aspoň část dluhu',
+      categories: ['alespoň část dluhu',
       'všechny dluhy, ale ne další částky (penále, úroky)',
       'všechno včetně penále, nákladů, úroků',
     ],

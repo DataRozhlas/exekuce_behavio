@@ -29,7 +29,7 @@
       useHTML: true,
     },
     subtitle: {
-      text: 'V ideálním scénáři povolání exekutora nevykonává soukromý podnikatel, ale státní nebo soudní zaměstnanec. I v tomto případě panuje široká shoda a tuto variantu podporuje 78 procent Čechů. ',
+      text: 'Variantu, kdy exekutora nevykonává soukromý podnikatel, podporuje 78 procent Čechů',
       // + '<br><span style="color: #fff">.</span>',
       useHTML: true,
     },
@@ -86,7 +86,7 @@
         name: 'procent dotázaných souhlasí',
         data: [{ y: 7, color: colors['2020'] },
           { y: 5, color: colors['2020'] },
-          { y: 78, color: colors['2020'] },
+          { y: 78, color: colors['#9ecae1'] },
           { y: 10, color: colors['2020'] },],
       },
     ],
