@@ -29,7 +29,7 @@
       useHTML: true,
     },
     subtitle: {
-      text: 'Variantu, kdy exekutora nevykonává soukromý podnikatel, podporuje 78 procent Čechů',
+      text: '',
       // + '<br><span style="color: #fff">.</span>',
       useHTML: true,
     },

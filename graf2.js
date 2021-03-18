@@ -29,7 +29,7 @@
       useHTML: true,
     },
     subtitle: {
-      text: 'Má exekutora určovat soud místo věřitele? Češi říkají ano. Tuto variantu podporuje 87 procent dotázaných',
+      text: '',
       // + '<br><span style="color: #fff">.</span>',
       useHTML: true,
     },
